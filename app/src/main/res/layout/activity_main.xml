@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of your room"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/form"
+        android:hint="Room name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingLeft="8dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exact Room Number"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Room no."
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exact Room Type "
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Single /Multiple"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How many beds in this room ?"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Number of beds"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the size of room"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="size"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the price of this room"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="price"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How many person can stay your room"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="max sleep"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:paddingLeft="10dp"
+        android:background="@drawable/form"/>
+<Space
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="25dp"
+    android:background="@drawable/btn"/>
+
+
+
+</LinearLayout>
+
+
+
